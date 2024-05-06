@@ -1,0 +1,57 @@
+body {
+    background-color: #4d3939;
+    /* Colocando cor no fundo do site */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /*  TODA A NAV BAR DO SITE  */
+    display: flex;
+    /* DEIXA TUDO FLEXIVEL MUITO IMPORTANTE */
+    justify-content: space-between;
+    /* Não sei ao certo porém me parece que ele cria um espaço entre os objetos */
+    align-items: center;
+    /* Alinha todos os texto no meio do container (Olhando horizontalmente)  */
+    min-height: 80px;
+    /* Altura minima do container */
+    background-color: #4d3939;
+    /*  Cor de fundo da Nav bar  */
+    padding: 0 2rem;
+    /*  Cria um espaço individualmente entre cada elemento  */
+}
+
+.logo {
+    /*  Logo do site  */
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    /*  CONTAINER SOMENTE DOS LINKS  */
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    /*  Só deixando o link parecer menos um link e sair do modelo de LISTA  */
+    list-style: none;
+}
+
+.nav-links a {
+    /*  TEXTO dos Link do site  */
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+    font-weight: bold;
+    /*  Altera a grosura da letra  */
+    padding: 10px;
+    /*  Espaço entre os links  */
+}
